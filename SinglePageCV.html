@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Raghid Muhammad Arjono</title>
+    <link rel="icon" type="image/png" href="favicon_rounded.png">
+    <style>
+        /* Reset dasar */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Container utama (Kertas Resume) */
+        .resume-paper {
+            background-color: white;
+            width: 100%;
+            max-width: 800px;
+            padding: 50px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+        }
+
+        /* --- GAYA HEADER --- */
+        header {
+            margin-bottom: 30px;
+        }
+
+        .top-line {
+            border-top: 4px solid #555;
+            width: 100%; /* Sesuai gambar */
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            font-weight: 500;
+            margin: 0 0 5px 0;
+            color: #222;
+        }
+
+        header .job-title {
+            color: #4CAF50; /* Hijau */
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        header .contact-info p {
+            margin: 2px 0;
+            font-size: 14px;
+        }
+
+        /* --- GAYA MAIN (Isi Utama) --- */
+        main section {
+            margin-bottom: 25px;
+        }
+
+        /* Judul Section (Skills, Education, Experience) */
+        h2 {
+            color: #4CAF50; /* Hijau */
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Judul Item (Nama Kampus/Perusahaan) */
+        h3 {
+            color: #2196F3; /* Biru */
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 5px 0;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
+            margin-top: 0;
+        }
+
+        p, li {
+            font-size: 14px;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills-list {
+            margin: 0;
+        }
+
+        /* --- GAYA FOOTER --- */
+        footer {
+            margin-top: 30px;
+            border-top: 1px solid #eee; /* Opsional: pemisah tipis */
+            padding-top: 20px;
+        }
+
+        footer h2 {
+            color: #4CAF50;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-paper">
+        
+        <header>
+            <div class="top-line"></div>
+            <h1>Raghid Muhammad Arjono</h1>
+            <div class="job-title">Software Engineering Student</div>
+            
+            <div class="contact-info">
+                <p>South Jakarta, DKI Jakarta</p>
+                <p>raghidmuhammad3@gmail.com</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="skills">
+                <h2>Skills</h2>
+                <p class="skills-list">
+                    Java, PHP, JavaScript, Propositional Logic, Basic Project Management, BPMN, Git & GitHub, Trello, Bitbucket, Figma, Canva.
+                </p>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                
+                <article>
+                    <h3>Faculty of Informatics - Bachelor of Software Engineering</h3>
+                    <p class="date">August 2025 - Present</p>
+                    <p>1st Semester Student. Studying Calculus (Limits, Derivatives), Programming Algorithms, and Software Engineering Fundamentals.</p>
+                </article>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+
+                <article>
+                    <h3>Web Portfolio Developer (Personal Project)</h3>
+                    <p class="date">November 2025</p>
+                    <ul>
+                        <li>Developed a personal profile web page using semantic HTML and CSS.</li>
+                        <li>Deployed the website to the internet using GitHub Pages.</li>
+                    </ul>
+                    <p><strong>Skills:</strong> Web Development, Version Control (Git)</p>
+                </article>
+
+                <article>
+                    <h3>Support Developer Intern</h3>
+                    <p class="date">June 2024 - December 2024</p>
+                    <ul>
+                        <li>Assisted in creating new master data.</li>
+                        <li>Assisted in managing client data.</li>
+                        <li>Maintained legacy company projects.</li>
+                    </ul>
+                    <p><strong>Skills:</strong> PHP, SQL, Version Control (Git), JavaScript, HTML, CSS, Framework (CodeIgniter), Bitbucket, Trello</p>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <h2>Across the Internet</h2>
+            <p>
+                LinkedIn: <a href="https://www.linkedin.com/in/raghidma/" target="_blank">LinkedIn</a><br>
+                GitHub: <a href="https://github.com/G1ts-3" target="_blank">GitHub</a><br>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
