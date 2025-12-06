@@ -44,7 +44,7 @@ Beberapa proyek yang pernah saya kerjakan atau sedang berjalan:
 | Nama Proyek | Deskripsi | Tech Stack | Status |
 |---|---|---|---|
 | **Personal Resume** | Web portofolio statis yang responsif dan semantik. | HTML, CSS | ✅ Selesai |
-| **Support Dev Intern** | Membantu pengelolaan data master dan legacy project. | PHP, SQL, CodeIgniter | ✅ Selesai |
+| **Membantu pengelolaan data master dan legacy project.** | [Single Page CV.](https://roadmap.sh/projects/single-page-cv) | HTML, CSS | ✅ Selesai |
 
 ## 📫 Hubungi Saya
 
